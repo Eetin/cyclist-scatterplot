@@ -1,0 +1,35 @@
+body {
+  background-color: #2a2a72;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 0.25) 25%, rgba(255, 255, 255, 0.25) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.25) 75%, rgba(255, 255, 255, 0.25) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 0.25) 25%, rgba(255, 255, 255, 0.25) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 0.25) 75%, rgba(255, 255, 255, 0.25) 76%, transparent 77%, transparent);
+  background-size: 50px 50px; }
+
+svg {
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 50px black; }
+
+.x-legend, .y-legend {
+  font-size: 1.2em; }
+
+text {
+  fill: #232528; }
+
+path, .tick {
+  font-family: 'Roboto';
+  font-size: 1.3em;
+  stroke: #232528; }
+  path line, .tick line {
+    stroke: #232528; }
+
+.rider {
+  cursor: pointer; }
+
+.tooltip {
+  pointer-events: none; }
+  .tooltip .tooltip-rect {
+    fill: #e5f5f9;
+    stroke: #232528; }
+    .tooltip .tooltip-rect.doping {
+      fill: mistyrose; }
+
+/*# sourceMappingURL=styles.css.map*/
